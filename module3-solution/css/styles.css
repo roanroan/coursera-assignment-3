@@ -1,0 +1,77 @@
+body {
+	font-size: 20px;
+	color: #fff;
+	background-color: #136782;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #B0B0B0;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 15px;
+}
+
+.navbar-brand {
+	padding-top: 0;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-family: Arial, Helvetica, serif;
+	text-transform: uppercase;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}	
+
+#nav-list {
+  	margin-top: 10px;
+}
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+#nav-list a:hover {
+  	background: #D7D7D7;
+}
+/* END OF HEADER */
+
+
+/* BODY CONTENT */
+#pizza-tile, #sushi-tile, #pasta-tile {
+	background-color: #808080;
+	border: 2px solid black;
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+	padding: 10px;
+}
+
+#pizza-tile h3, #sushi-tile h3, #pasta-tile h3 {
+	top: 0;
+	width: 100%;
+}
+
+#pizza-tile hr, #sushi-tile hr, #pasta-tile hr {
+	width: 80%;
+	margin-top: 5px;
+}
+/* END OF BODY */
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#header-nav {
+		padding-bottom: 0;
+	}
+}
